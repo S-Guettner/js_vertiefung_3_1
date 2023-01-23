@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+#ball1{
+background:linear-gradient(45deg, #1c8f53 50%, #6e0960 50.01%);
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+border: 2px solid;
+margin: 1rem;
+}
+#ball1:hover{
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+#ball2{
+background:linear-gradient(45deg,#454271 50%, #d9ab42 50.01%);
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+border: 2px solid;
+margin: 1rem;
+}
+#ball2:hover{
+    box-shadow: 1rem 1rem 1rem  rgba(0, 0, 0, 0.3);
+}
+
+#ball3{
+background:linear-gradient(45deg,#000020 50%,#c65d0b 50.01%);
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+border: 2px solid;
+margin: 1rem;
+}
+#ball3:hover{
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+#ball4{
+background:linear-gradient(45deg,#050351 50%, #29ccfe 50.01%);
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+border: 2px solid;
+margin: 1rem;
+}
+#ball4:hover{
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+
+.ballContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
